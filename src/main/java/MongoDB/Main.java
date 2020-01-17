@@ -2,7 +2,6 @@ package MongoDB;
 
 import MongoDB.services.StudentServices;
 import MongoDB.services.UserServices;
-import com.mongodb.*;
 import com.sun.tools.javac.main.Option;
 import org.json.JSONException;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -19,7 +19,6 @@ public class ApplicationConfiguration {
     public Database getDabase(){
         return new MongoDB();
     }
-
     @Bean(name = "userservices")
     public UserServices getUserServices(Database db){
         return new UserServices(db);
